@@ -9,6 +9,8 @@
       body {
         margin: 0;
         padding: 0;
+        line-height: 1.5;
+	    font-family: 'Poppins', sans-serif;
         position: relative;
       }
       /* @media screen and (min-width: 600px) and (max-width: 1000px){
@@ -251,6 +253,80 @@
         color: #004cff;
         text-decoration: underline;
       }
+      #start{
+        margin-top: 8px;
+        width: 100%;
+        height: 720px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid black; */
+        background-color: rgb(225, 230, 233);
+      }
+      .s-cont{
+        width: 85%;
+        height: 85%;        
+        /* border: 1px solid black; */
+      }
+      .s1 > p{
+        font-size: 40px;
+        word-spacing: 2px;
+      }
+      .s2 > p{
+        font-size: 20px;
+        color: black;
+      }
+      .s3{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(1,360px);
+        gap: 15px;
+        /* border: 1px solid red; */
+      }
+      .s3 > .sub1{
+        cursor: pointer;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        background-color: white;
+      }
+      .sub1 > img{
+        width: 100%;
+      }
+      .sub1 > .p{
+        width: 100%;
+        height: 40%;
+        /* border: 1px solid black; */
+      }
+      .p > p:nth-child(1){
+        color: #6da9d5;
+        font-size: 14px;
+        word-spacing: 2px;
+      }
+      .p > p:nth-child(2){
+        color: black;
+        font-size: 14px;
+      }
+      .sub1 > .p{
+        width: 90%;
+        margin: auto;
+        color: black;
+      }
+      .bottom{
+        width: 95%;
+        height: auto;
+        margin: auto;
+        /* border: 1px solid black; */
+      }
+      .lower{
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+      }
+      .lower > a{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #6da9d5;
+        text-decoration: none;
+      }
     </style>
   </head>
   <body>
@@ -333,9 +409,53 @@
             <div class="com1">
                 <p>Supportive Community</p>
                 <p>Stay motivated and engaged with a little help from a supportive community of other members.</p>
-                <a href=""><p>Become a Member</p> </a>     
+                <a href=""><p>Become a Member</p></a>     
             </div>
         </div>
     </div>
+    <div id="start">
+        <div class="s-cont">
+            <div class="s1"><p>Not sure where to start?</p></div>
+            <div class="s2"><p>Programs offer day-to-day guidance on an interactive calendar to keep you on track.</p></div>
+            <div class="s3">
+                <div class="sub1">
+                    <img src="https://d18zdz9g6n5za7.cloudfront.net/plan/1020/1020-o_31_fb-low-impact-round-2-fat-loss-program-40-minutes-or-less.jpg" alt="">
+                    <div class="p">
+                        <p>4 WEEK PROGRAM - 34 MIN/Day</p>
+                        <p>FB Low Impact Round 2 - Build Muscle & Burn Fat - 40 Minutes or Less</p>
+                    </div>
+                    <div class="bottom">$14.99</div>
+                </div>
+                <div class="sub1">
+                    <img src="https://d18zdz9g6n5za7.cloudfront.net/plan/1020/1020-o_29_4-week-fb-blend-burn-fat-build-muscle-tone-35-or-55-minutes-a-day.jpg" alt="">
+                    <div class="p">
+                        <p>4 WEEK PROGRAM - 34 MIN/Day</p>
+                        <p>FB Low Impact Round 2 - Build Muscle & Burn Fat - 40 Minutes or Less</p>
+                    </div>
+                    <div class="bottom">$14.99</div>
+                </div>
+                <div class="sub1">
+                    <img src="https://d18zdz9g6n5za7.cloudfront.net/plan/1020/1020-o_28_fb-30-4-week-fat-loss-program-for-busy-people-round-4.jpg" alt="">
+                    <div class="p">
+                        <p>4 WEEK PROGRAM - 34 MIN/Day</p>
+                        <p>FB Low Impact Round 2 - Build Muscle & Burn Fat - 40 Minutes or Less</p>
+                    </div>
+                    <div class="bottom">$14.99</div>
+                </div>
+                <div class="sub1">
+                    <img src="https://d18zdz9g6n5za7.cloudfront.net/plan/1020/1020-o_7_fb-bodyweight-bodyweight-only-fat-loss-program.jpg" alt="">
+                    <div class="p">
+                        <p>4 WEEK PROGRAM - 34 MIN/Day</p>
+                        <p>FB Low Impact Round 2 - Build Muscle & Burn Fat - 40 Minutes or Less</p>
+                    </div>
+                    <div class="bottom">$14.99</div>
+                </div>
+            </div>
+            <div class="lower">
+                <a href=""><p>View All Programs</p></a> 
+            </div>
+        </div>
+    </div>
+  
   </body>
 </html>
