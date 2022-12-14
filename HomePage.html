@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness Freak Home Page</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      #nav {
+        width: 100%;
+        height: 110px;
+        position: sticky;
+        top: 0;
+        /* border: 1px solid black; */
+      }
+      #background {
+        width: 100%;
+        height: 590px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background: linear-gradient(to bottom right, #3d97ce 0%, #12debb 100%);
+        /* border: 1px solid black; */
+      }
+      .subdiv {
+        width: 26%;
+        height: 60%;
+        /* border: 1px solid green; */
+      }
+      .subdiv2 {
+        width: 40%;
+        height: 100%;
+        /* border: 1px solid green; */
+      }
+      .subdiv > p:nth-child(1),
+      p:nth-child(2) {
+        line-height: 14px;
+        font-size: 38px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+      }
+      .subdiv > p:nth-child(3) {
+        font-size: 20px;
+        text-align: left;
+        word-spacing: 0.5px;
+        line-height: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+      }
+      .subdiv > button {
+        width: 140px;
+        height: 45px;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        background-color: black;
+        border-radius: 5px;
+      }
+      .subdiv2 > img {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="nav"></div>
+    <div id="background">
+      <div class="subdiv">
+        <p>Feel Great.</p>
+        <p>Body and Mind.</p>
+        <p>Choose from hundreds of workouts, healthy recipes, relaxingmeditations, and expert articles, for a whole body and mind approach to feeling great.</p>
+        <button>JOIN NOW</button>
+      </div>
+      <div class="subdiv2">
+        <img src="https://cloudfront.fitnessblender.com/assets/img/homepage/team-1440.webp" alt=""/>
+      </div>
+    </div>
+  </body>
+</html>
