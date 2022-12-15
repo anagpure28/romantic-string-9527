@@ -162,3 +162,34 @@ a:hover{
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
+#faq{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #313443;;
+    /* border: 1px solid black; */
+}
+#faq > div:nth-child(1){
+    width: 80%;
+    height: 88%;
+    margin-top: 50px;
+    color: white;
+    /* border: 1px solid black; */
+}
+#faq > div > div{
+    margin-top: 30px;
+    /* border: 1px solid black; */
+}
+span{
+    color:#4b9ed6;
+}
+h1{
+    font-size: 40px;
+    font-weight: normal;
+}
+h2{
+    font-size: 30px;
+    font-weight: normal;
+}
