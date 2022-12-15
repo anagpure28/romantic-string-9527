@@ -7,7 +7,7 @@
 	width: 1300px;
 	margin:auto;
     box-sizing: border-box;
-    /* border: 1px solid black; */
+    /* border: 1px solid white; */
 }
 .row{
 	display: flex;
@@ -15,6 +15,7 @@
 }
 ul{
 	list-style: none;
+	margin-left: -40px;
 }
 .footer{
 	background-color: #24262b;
