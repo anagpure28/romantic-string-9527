@@ -1,0 +1,23 @@
+#bottom{
+    width: 100%;
+    height: 80px;
+}
+.bot{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+    margin: auto;
+}
+.bot > div > a{
+    color: #2486c7;
+    font-size: 13px;
+    text-decoration: none;
+}
+.bot > div > a:hover{
+    color: #056df5;
+    cursor: pointer;
+    text-decoration: none;
+}
