@@ -3,15 +3,17 @@ body {
     padding: 0;
     line-height: 1.5;
     font-family: 'Poppins', sans-serif;
-    position: relative;
+    /* position: relative; */
 }
 #banner{
     width: 100%;
     height: 560px;
-    margin: auto;
+    /* margin: auto; */
+    /* margin-top: 98px; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 100px;
     background-image: url("	https://d18zdz9g6n5za7.cloudfront.net/workouts_programs/masthead-workouts.jpg");
 }
 .ban{

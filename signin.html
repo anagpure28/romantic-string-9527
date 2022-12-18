@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="./styles/Signin.css">
     <link rel="stylesheet" href="./styles/Footer.css">
     <link rel="stylesheet" href="./styles/Navbar.css">
+    <link rel="stylesheet" href="./signup.html">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="./styles/signup.css">
     <title>Signin</title>
   </head>
-  <body>
+<body>
     <div id="nav">
       <div>
         <a href="index.html">
@@ -78,13 +79,13 @@
         <div>
             <div><p>SIGN IN</p></div>
             <div>
-                <form class="signform">
+                <form id="signform">
                     <p>Username</p>
                     <input type="text" id="user" placeholder="Username">
                     <p>Password</p>
                     <input type="password" id="pass" placeholder="Password">
                     <p><span><input type="checkbox"></span> Remember me</p>
-                    <input type="submit" id="login" value="LOGIN">
+                    <input type="submit" onclick="LoginData()" id="login" value="LOGIN">
                 </form>
             </div>
             <div>
@@ -146,3 +147,4 @@
     </footer>
 </body>
 </html>
+<script src="./Javascript/signin.js"></script>

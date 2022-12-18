@@ -10,9 +10,10 @@ body {
   height: 590px;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;      
+  align-items: center; 
+  margin-top: 100px;     
   background: linear-gradient(to bottom right, #3d97ce 0%, #12debb 100%);
-  /* border: 1px solid black; */
+  border: 1px solid black;
 }
 .subdiv {
   width: 26%;
@@ -301,6 +302,7 @@ a:hover{
 }
 .sub1 > .p{
   width: 90%;
+  padding-top: 1px;
   margin: auto;
   color: black;
 }
