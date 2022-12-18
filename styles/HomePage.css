@@ -2,18 +2,8 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.5;
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   position: relative;
-}
-#nav {
-  width: 100%;
-  height: 110px;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  background-color: white;
-  /* border: 1px solid black; */
 }
 #background {
   width: 100%;
@@ -57,6 +47,9 @@ p:nth-child(2) {
   color: white;
   background-color: black;
   border-radius: 5px;
+}
+.subdiv > button:hover{
+  background-color: rgb(33, 31, 31);
 }
 .subdiv2 > img {
   width: 100%;
@@ -121,6 +114,9 @@ span{
   background-color: black;
   border-radius: 5px;
 } 
+.c-div1 > div > button:hover{
+  background-color: rgb(40, 37, 37);
+}
 .c-div2 > img{
   width: 100%;
   height: 100%;
@@ -162,9 +158,18 @@ span{
   text-align: center;
   color: black;
 }
-.grid1 > .div1 > p:nth-child(3){
+.grid1 > .div1 > div{
   color: #6da9d5;
+  font-size: 14px;
+  margin-top: 8px;
   text-align: center;
+  /* border: 1px solid black; */
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
 }
 .grid1 > .div2{
   width: 100%;
@@ -235,7 +240,7 @@ span{
   text-decoration: none;
 }
 .com1 > a > p:hover{
-  color: #004cff;
+  color: #2c7fb9;
   text-decoration: underline;
 }
 #start{
@@ -276,6 +281,9 @@ span{
 }
 .sub1 > img{
   width: 100%;
+}
+.s3 > div:hover{
+  border: 3px solid #4f9fd4;
 }
 .sub1 > .p{
   width: 100%;
