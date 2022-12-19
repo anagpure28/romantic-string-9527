@@ -13,7 +13,7 @@ body {
   align-items: center; 
   margin-top: 100px;     
   background: linear-gradient(to bottom right, #3d97ce 0%, #12debb 100%);
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .subdiv {
   width: 26%;
