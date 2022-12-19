@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./styles/Navbar.css">
     <link rel="stylesheet" href="./styles/Workout.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
     <title>ProgramData</title>
 </head>
 <body>
@@ -75,8 +76,19 @@
     <div id="space">
         <div><p>Workout Programs</p></div>
         <div>
-            <div></div>
-            <div></div>
+            <div>
+                <span class="material-symbols-outlined">filter_alt</span>
+                <select id="filter">
+                    <option value="">Filter</option>
+                    <option value="2 Week">2 Week</option>
+                    <option value="4 Week">4 Week</option>
+                    <option value="8 Week">8 Week</option>
+                </select>
+            </div>
+            <div>         
+                <span class="material-symbols-outlined">Search</span>
+                <input oninput="search()" id="search" type="text" placeholder="Search" />
+            </div>
         </div>
     </div>
     <div id="cards-container">
@@ -84,61 +96,4 @@
     </div>
 </body>
 </html>
-<script>
-    let pcard = document.getElementById("p-cards");
-
-    let url = ("./ProgramData/program.json");
-
-    async function fetchCard(){
-        try{
-            let res = await fetch(url);
-            let data = await res.json();
-            DisplayCard(data);
-            console.log(data);
-        }catch(err){
-            console.log(err);
-        }
-    }
-    fetchCard();
-
-    function DisplayCard(data){
-        data.forEach((el,index) => {
-            let div = document.createElement("div");
-
-            let img = document.createElement("img");
-            img.setAttribute("src", el.image);
-
-            let div1 = document.createElement("div");
-            div1.setAttribute("id", "div1");
-
-            let week = document.createElement("p");
-            week.innerText = el.week;
-
-            let title = document.createElement("h4");
-            title.innerText = el.title;
-
-            let div2 = document.createElement("div");
-            div2.setAttribute("id","div2");
-
-            // -----div3-----
-            let div3 = document.createElement("div");
-            div3.setAttribute("id","div3");
-
-            let text = document.createElement("p");
-            text.innerText = el.text;
-
-            let price = document.createElement("h4");
-            price.innerText = "$" + el.price;
-
-            let btn = document.createElement("button");
-            btn.innerText = "🛍️"+" "+"ADD TO BAG";
-
-            div3.append(text,price)
-            div2.append(div3,btn);
-            div1.append(week,title)
-            div.append(img,div1,div2);
-            pcard.append(div);
-        });
-    }
-    DisplayCard();
-</script>
+<script src="./Javascript/ProgramData.js"></script>

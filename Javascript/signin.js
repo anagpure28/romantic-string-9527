@@ -5,8 +5,7 @@ function LoginData(){
     let userData = JSON.parse(localStorage.getItem("user-username")) || [];
     let passwordData = JSON.parse(localStorage.getItem("user-password")) || [];
 
-    // console.log(User);
-    // console.log(Pass);
+    // let userData = JSON.parse(localStorage.getItem("username")) || [];
     
     if(User == userData){
         if(Pass == passwordData){
