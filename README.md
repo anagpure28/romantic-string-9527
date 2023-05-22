@@ -6,5 +6,15 @@ Health and Fitness is a basic need of any person. To enjoy a healthy life you mu
 ## Fitness Blender(Clone)
 Fitness Blender is an American digital fitness content publisher founded by personal trainers Kelli and Daniel Segars. The company offers free and paid at-home exercise videos through their website and YouTube channel.
 
-HomePage
+![image](https://github.com/anagpure28/romantic-string-9527/assets/92313981/7c49095e-1da9-4cb2-a747-6f5582c65967)
 
+![image](https://github.com/anagpure28/romantic-string-9527/assets/92313981/0514d121-530b-4619-900a-8c8b3f8cf6af)
+
+![image](https://github.com/anagpure28/romantic-string-9527/assets/92313981/3b7c97ef-5748-4fe7-becd-e7ec2e653486)
+
+![image](https://github.com/anagpure28/romantic-string-9527/assets/92313981/df007ac6-b92b-462d-be16-cac8ea54add0)
+
+![image](https://github.com/anagpure28/romantic-string-9527/assets/92313981/b55230df-3375-482a-8eba-5664bbc98341)
+
+## Tech Stacks
+HTML | CSS | JavaScript
